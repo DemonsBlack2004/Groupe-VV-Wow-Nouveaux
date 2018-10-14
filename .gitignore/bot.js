@@ -12,4 +12,4 @@ bot.on('guildMemberAdd', function(member){
   }).catch(console.error);
 });
 //login
-bot.login('NTAwNTg3NzQ4NzA5ODkyMDk2.DqSTYg.Lt_XEWppYk_j2mkwKalTL9rHV2g');
+bot.login(process.env.TOKEN);
